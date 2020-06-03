@@ -37,7 +37,7 @@ function sectionSelection(list, section){
  }
  //what is wrong where?
  for (var j=0; j<list.length;j++){
-   if(list[j]>= startIndex && list[j]<=endIndex){
+   if ( j >= startIndex && j <=endIndex){
       list[j].style.color = 'yellow';
    }
  }
